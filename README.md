@@ -1,4 +1,5 @@
-# Sales_Store_data_Data_Analyst
+# Sales_Store_data_Data_Analyst  (The Magic Super Store)
+
 
 ## Analyzed retail sales data using SQL (JOINs, GROUP BY, ORDER BY, CTEs, aggregate functions) to identify top-selling products,    high-revenue categories, and customer purchasing patterns.
 
