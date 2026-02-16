@@ -7,4 +7,4 @@
 
 ## Evaluated customer behavior by spending, age group, gender, and payment mode, highlighting credit card usage and 36–50 age       group as key revenue drivers.
 
-## Delivered actionable insights to support targeted promotions, loyalty strategies, and data-driven business decisions.
+## Delivered actionable insights to support targeted promotions, loyalty strategies, and data-driven business decisions..
