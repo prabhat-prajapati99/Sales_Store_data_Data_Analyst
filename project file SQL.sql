@@ -3,7 +3,7 @@ create schema project;
 
 use project;
 
--- createing table for data set
+-- createing table for data set.
 
 CREATE TABLE sales_store (
     transaction_id VARCHAR(15),
