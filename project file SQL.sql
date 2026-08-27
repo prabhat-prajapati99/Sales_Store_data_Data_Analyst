@@ -29,7 +29,7 @@ CREATE TABLE sales_store (
 ------------------------------------------------------
 -- Step 1 :- To chake for duplicate
 SELECT 
-    TRANSACTION_ID, COUNT(*)
+    TRANSACTION_ID, COUNT(*) as Number_of_transctions
 FROM sales
 GROUP BY TRANSACTION_ID
 HAVING COUNT(TRANSACTION_ID) > 1;
