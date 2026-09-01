@@ -1,4 +1,4 @@
--- creating schema
+-- creating schema Select
 create schema project;
 
 use project;
