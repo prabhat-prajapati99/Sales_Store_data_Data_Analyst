@@ -43,7 +43,7 @@ HAVING COUNT(TRANSACTION_ID) > 1;
 -- to show all data to duplicate
 with cte as ( 
  select * ,
-    ROW_NUMBER() over(partition by TRANSACTION_ID order by TRANSACTION_ID) as Row_num
+    ROW_NUMBER() over(partition by TRANSACTION_ID order by TRANSACTION_ID) as Row_number
 from sales_store)
 
 SELECT 
