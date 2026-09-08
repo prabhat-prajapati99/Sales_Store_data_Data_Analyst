@@ -58,7 +58,7 @@ with cte as (
     ROW_NUMBER() over(partition by TRANSACTION_ID order by TRANSACTION_ID) as Row_num
 from sales)
 
-DELETE FROM cte 
+delete FROM cte 
 WHERE
     Row_num = 2; 
 
