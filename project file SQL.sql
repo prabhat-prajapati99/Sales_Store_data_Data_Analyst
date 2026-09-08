@@ -77,7 +77,7 @@ RENAME COLUMN prce to price;
 SELECT 
     *
 FROM sales_store
-WHERE
+where
     transaction_id IS NULL
         OR customer_id IS NULL
         OR customer_name IS NULL
