@@ -29,10 +29,10 @@ CREATE TABLE sales_store (
 ------------------------------------------------------
 -- Step 1 :- To chake for duplicate
 SELECT 
-    TRANSACTION_ID, COUNT(*) as Number_of_transctions
+    TRANSACTION_ID, COUNT(*) as Number_of_Transctions
 FROM sales
-GROUP BY TRANSACTION_ID
-HAVING COUNT(TRANSACTION_ID) > 1;
+GROUP BY tRANSACTION_ID
+HAVING COUNT(tRANSACTION_ID) > 1;
 
 -- this is duplicate values 
 -- 'TXN240646' ,
