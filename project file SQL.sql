@@ -44,7 +44,7 @@ HAVING COUNT(tRANSACTION_ID) > 1;
 with cte as ( 
  select * ,
     ROW_NUMBER() over(partition by TRANSACTION_ID order by TRANSACTION_ID) as Row_number
-from sales_store)
+From sales_store)
 
 SELECT 
     *
