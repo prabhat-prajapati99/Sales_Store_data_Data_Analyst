@@ -54,7 +54,7 @@ WHERE
 
 -- Deleting duplicate values 
 with cte as ( 
- select * ,
+ SELECT * ,
     ROW_NUMBER() over(partition by TRANSACTION_ID order by TRANSACTION_ID) as Row_num
 from sales)
 
