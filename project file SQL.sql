@@ -66,7 +66,7 @@ WHERE
 -- Step 2 -: Rename incorrect header
 -- we have 2 header is incorrect
 -- 1st is qunity
-ALTER TABLE sales_store
+ALTER table sales_store
 RENAME column qunity to quantity;
 
 -- 2nd is prce
