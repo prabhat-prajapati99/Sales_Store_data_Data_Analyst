@@ -49,7 +49,7 @@ From sales_store)
 select 
     *
 FROM cte
-WHERE
+where
     TRANSACTION_ID IN ('TXN240646' , 'TXN342128', 'TXN855235', 'TXN981773'); 
 
 -- Deleting duplicate values 
