@@ -46,7 +46,7 @@ with cte as (
     ROW_NUMBER() over(partition by TRANSACTION_ID order by TRANSACTION_ID) as Row_number
 From sales_store)
 
-SELECT 
+select 
     *
 FROM cte
 WHERE
