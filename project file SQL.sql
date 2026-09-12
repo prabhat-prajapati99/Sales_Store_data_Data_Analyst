@@ -111,7 +111,7 @@ WHERE
 UPDATE sales_store 
 SET 
     customer_id = 'CUST9494'
-WHERE
+where
     transaction_id = 'TXN977900'; 
 
 
