@@ -78,8 +78,8 @@ SELECT
     *
 FROM sales_store
 where
-    transaction_id IS NULL
-        OR customer_id IS NULL
+    transaction_id IS null
+        OR customer_id is NULL
         OR customer_name IS NULL
         OR customer_age IS NULL
         OR gender IS NULL
@@ -96,7 +96,7 @@ where
 
 -- here is an outlayer 
 -- deleting outlayer
-DELETE FROM sales_store 
+DELETE FROM sales_Store 
 WHERE
     transaction_id IS null;
 
