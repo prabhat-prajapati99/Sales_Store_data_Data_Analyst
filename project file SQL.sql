@@ -151,10 +151,10 @@ WHERE
 -- for male
 UPDATE sales_store 
 SET gender = 'M'
-WHERE gender = 'Male';
+where gender = 'Male';
 
 -- for Female 
-UPDATE sales_store 
+update sales_store 
 SET gender = 'F'
 WHERE gender = 'Female';
 
