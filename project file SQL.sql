@@ -182,7 +182,7 @@ FROM sales_store
 WHERE
     status = 'delivered'
 GROUP BY product_name
-ORDER BY Total_quantity_sold DESC
+order by Total_quantity_sold desc
 LIMIT 5;
 
 -- Business Problem: We don't know which products are most in demand.
