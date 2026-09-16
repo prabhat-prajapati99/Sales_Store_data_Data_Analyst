@@ -262,7 +262,7 @@ SELECT
     / COUNT(*) * 100,2) AS cancelled_percent
 FROM sales_store
 GROUP BY product_category
-ORDER BY cancelled_percent DESC;
+ORDER BY CANCELLED_PERCENT DESC;
 
 
 -- return
