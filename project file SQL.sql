@@ -137,7 +137,7 @@ FROM sales_store
 WHERE customer_id = 'CUST1003';
 
 
-UPDATE sales_store 
+update sales_store 
 SET 
     customer_name = 'Mahika Saini',
     customer_age = 35,
