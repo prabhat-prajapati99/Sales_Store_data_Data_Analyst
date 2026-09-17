@@ -270,8 +270,8 @@ SELECT
     product_category,
     FORMAT(COUNT(CASE WHEN status = 'returned' THEN 1 END) / COUNT(*) * 100,2) AS returned_percent
 FROM sales_store
-GROUP BY product_category
-ORDER BY returned_percent DESC;
+group by product_category
+order by returned_percent desc;
 
 -- Business Problem: Monitor dissatisfaction trends per category.
 -- Business Impact: Reduce returns, improve product descriptions/expectations. Helps identify and fix product or logistics issues.
