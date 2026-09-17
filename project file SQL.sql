@@ -234,7 +234,7 @@ SELECT
     FORMAT(SUM(price * quantity), 'C0') AS total_spend
 FROM sales_store
 GROUP BY customer_name
-ORDER BY SUM(price * quantity) DESC
+order by SUM(price * quantity) DESC
 LIMIT 5; 
 
 
