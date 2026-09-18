@@ -142,7 +142,7 @@ SET
     customer_name = 'Mahika Saini',
     customer_age = 35,
     gender = 'Male'
-WHERE
+where
     transaction_id = 'TXN432798';
 
 --------------------------------------------------------------------------------------
