@@ -96,7 +96,7 @@ where
 
 -- here is an outlayer 
 -- deleting outlayer
-DELETE FROM sales_Store 
+delete from sales_Store 
 WHERE
     transaction_id IS null;
 
