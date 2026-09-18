@@ -181,7 +181,7 @@ SELECT
 FROM sales_store
 WHERE
     status = 'delivered'
-GROUP BY product_name
+group by  product_name
 order by Total_quantity_sold desc
 LIMIT 5;
 
