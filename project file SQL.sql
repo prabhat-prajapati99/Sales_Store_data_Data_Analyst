@@ -32,7 +32,7 @@ SELECT
     TRANSACTION_ID, COUNT(*) as Number_of_Transctions
 FROM sales
 GROUP BY tRANSACTION_ID
-HAVING COUNT(tRANSACTION_ID) > 1;
+having count(tRANSACTION_ID) > 1;
 
 -- this is duplicate values 
 -- 'TXN240646' ,
