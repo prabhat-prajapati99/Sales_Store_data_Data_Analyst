@@ -134,7 +134,7 @@ WHERE transaction_id = 'TXN985663';
 SELECT 
     *
 FROM sales_store
-WHERE customer_id = 'CUST1003';
+where customer_id = 'CUST1003';
 
 
 update sales_store 
