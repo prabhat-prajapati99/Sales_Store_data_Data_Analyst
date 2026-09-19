@@ -5,7 +5,7 @@ use project;
 
 -- createing table for data set with Dtypes.
 
-CREATE TABLE sales_store (
+create table sales_store (
     transaction_id VARCHAR(15),
     customer_id VARCHAR(15),
     customer_name VARCHAR(30),
