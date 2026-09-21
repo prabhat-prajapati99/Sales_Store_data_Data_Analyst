@@ -350,7 +350,7 @@ from sales_store
 where gender = 'F'
 group by  gender , product_category )
 
-SELECT 
+Select
     product_category, Male, Female
 FROM cte1 JOIN cte2 
     USING (product_category)
