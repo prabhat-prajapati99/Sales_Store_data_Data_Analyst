@@ -354,7 +354,7 @@ Select
     product_category, Male, Female
 FROM cte1 JOIN cte2 
     USING (product_category)
-ORDER BY male DESC;
+order bY male DESC;
 
 
 -- Business Problem: Gender-based product preferences.
