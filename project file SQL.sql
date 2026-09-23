@@ -28,9 +28,9 @@ create table sales_store (
 -- Data Cleaning
 ------------------------------------------------------
 -- Step 1 :- To chake for duplicate
-SELECT 
+select 
     TRANSACTION_ID, COUNT(*) as Number_of_Transctions
-FROM sales
+from sales
 GROUP BY tRANSACTION_ID
 having count(tRANSACTION_ID) > 1;
 
