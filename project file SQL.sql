@@ -59,14 +59,14 @@ with cte as (
 from sales)
 
 delete FROM cte 
-WHERE
+where
     Row_num = 2; 
 
 ---------------------------------------------------------
 -- Step 2 -: Rename incorrect header
 -- we have 2 header is incorrect
 -- 1st is qunity
-ALTER table sales_store
+alter table sales_store
 RENAME column qunity to quantity;
 
 -- 2nd is prce
