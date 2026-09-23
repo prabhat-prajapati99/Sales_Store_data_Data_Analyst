@@ -352,7 +352,7 @@ group by  gender , product_category )
 
 Select
     product_category, Male, Female
-FROM cte1 JOIN cte2 
+FROM cte1 join cte2 
     USING (product_category)
 order bY male DESC;
 
