@@ -119,7 +119,7 @@ where
 SELECT 
     *
 FROM sales_store
-WHERE
+where
     customer_name = 'Damini Raju';-- cust_id is == CUST1401
 
 -- Update it
