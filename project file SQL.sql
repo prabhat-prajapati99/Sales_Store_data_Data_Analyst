@@ -67,7 +67,7 @@ where
 -- we have 2 header is incorrect
 -- 1st is qunity
 alter table sales_store
-RENAME column qunity to quantity;
+RENAME colUMN qunity to quantity;
 
 -- 2nd is prce
 alter table sales_store
