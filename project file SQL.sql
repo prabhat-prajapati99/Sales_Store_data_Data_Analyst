@@ -116,9 +116,9 @@ where
 
 
 -- filling null in Damini Raju customer feeld 
-SELECT 
+select 
     *
-FROM sales_store
+FROM SALSE_store
 where
     customer_name = 'Damini Raju';-- cust_id is == CUST1401
 
