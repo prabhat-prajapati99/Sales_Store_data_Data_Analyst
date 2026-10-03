@@ -1,5 +1,5 @@
 -- creating schema Select
-create schema project;
+CREATE SCHEMA project;
 
 use project;
 
