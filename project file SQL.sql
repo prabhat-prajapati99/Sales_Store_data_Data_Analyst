@@ -220,7 +220,7 @@ SELECT
     time_of_day, COUNT(*) AS total_orders
 FROM cte
 GROUP BY time_of_day
-ORDER BY total_orders DESC;
+order by  TOTAL_orders DESC;
 
 -- Business Problem: Find peak sales times.
 
