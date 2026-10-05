@@ -194,9 +194,9 @@ LIMIT 5;
 SELECT 
     product_name, COUNT(*) AS total_cancelled_order
 FROM sales_store
-WHERE
+where
     status = 'cancelled'
-GROUP BY product_name
+group BY product_name
 ORDER BY total_cancelled_order DESC
 LIMIT 5;
 
