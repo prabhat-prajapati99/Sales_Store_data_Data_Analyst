@@ -150,7 +150,7 @@ where
 -- replacing male = M and Female = F
 -- for male
 UPDATE sales_store 
-SET gender = 'M'
+SET GENDER = 'M'
 where gender = 'Male';
 
 -- for Female 
