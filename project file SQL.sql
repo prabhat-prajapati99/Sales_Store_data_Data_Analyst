@@ -126,7 +126,7 @@ where
 
 update sales_store 
 SET customer_id = 'CUST1401'
-WHERE transaction_id = 'TXN985663'; 
+where transaction_id = 'TXN985663'; 
 
 
 -- now we are filling product info null
