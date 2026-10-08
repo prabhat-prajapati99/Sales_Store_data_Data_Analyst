@@ -102,10 +102,10 @@ where
 
 
 -- replacing same name if customer in data set cust_id is avilable
-SELECT 
+select 
     *
 FROM sales_store
-WHERE
+where
     customer_name = 'Ehsaan Ram';-- cust_id is == CUST9494
 -- filling cust_id
 UPDATE sales_store 
