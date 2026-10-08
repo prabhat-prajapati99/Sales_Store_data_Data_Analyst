@@ -191,9 +191,9 @@ LIMIT 5;
 ------------------------------------------------------------------------------------------
 
 -- Q2. - Which products are most frequently cancelled?
-SELECT 
+select 
     product_name, COUNT(*) AS total_cancelled_order
-FROM sales_store
+from sales_store
 where
     status = 'cancelled'
 group BY product_name
