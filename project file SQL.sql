@@ -300,7 +300,7 @@ order by returned_percent desc;
         )
    SELECT 
     cust_age,
-    FORMAT(SUM((price * quantity)), 'C0') AS total_purches
+    FORMAT(sum((price * quantity)), 'C0') AS total_purches
 FROM cte
 GROUP BY cust_age
 ORDER BY total_purches DESC;
