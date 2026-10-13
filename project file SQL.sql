@@ -183,7 +183,7 @@ WHERE
     status = 'delivered'
 group by  product_name
 order by Total_quantity_sold desc
-LIMIT 5;
+limit 5;
 
 -- Business Problem: We don't know which products are most in demand.
 -- Business Impact: Helps prioritize stock and boost sales through targeted promotions.
