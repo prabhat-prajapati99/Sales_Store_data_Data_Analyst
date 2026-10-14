@@ -98,7 +98,7 @@ where
 -- deleting outlayer
 delete from sales_Store 
 where
-    transaction_id is NULL;
+    transaction_id is null;
 
 
 -- replacing same name if customer in data set cust_id is avilable
