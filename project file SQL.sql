@@ -229,7 +229,7 @@ order by  TOTAL_orders DESC;
 --------------------------------------------------------------------------------
 
 -- Q4. Who are the top 5 highest spending customers?
-SELECT 
+select 
     customer_name,
     FORMAT(SUM(price * quantity), 'C0') AS total_spend
 FROM sales_store
