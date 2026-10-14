@@ -179,7 +179,7 @@ WHERE payment_mode = 'CC';
 SELECT 
     product_name, SUM(quantity) AS Total_quantity_sold
 FROM sales_store
-WHERE
+where
     status = 'delivered'
 group by  product_name
 order by Total_quantity_sold desc
