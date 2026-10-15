@@ -216,7 +216,7 @@ select *,
 	end as time_of_day 
 from sales_store)
     
-SELECT 
+select 
     time_of_day, COUNT(*) AS total_orders
 FROM cte
 GROUP BY time_of_day
