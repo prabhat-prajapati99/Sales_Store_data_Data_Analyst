@@ -149,7 +149,7 @@ where
 -- Step 4 :- cleaning gender column unique(M,Female,Male,M)
 -- replacing male = M and Female = F
 -- for male
-UPDATE sales_store 
+update sales_store 
 SET GENDER = 'M'
 where gender = 'Male';
 
