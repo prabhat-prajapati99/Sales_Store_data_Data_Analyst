@@ -332,7 +332,7 @@ SELECT
     gender,
     product_category,
     COUNT(product_category) AS Total_Purches
-FROM sales_store
+from sales_store
 group by gender , product_category
 ORDER BY gender;
 
