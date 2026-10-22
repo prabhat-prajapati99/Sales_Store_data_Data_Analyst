@@ -74,7 +74,7 @@ alter table sales_store
 RENAME column prce to price;
 ------------------------------------------------------------
 -- Step 3 -: to chake null values 
-SELECT 
+select 
     *
 FROM sales_store
 where
