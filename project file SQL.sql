@@ -155,7 +155,7 @@ where gender = 'Male';
 
 -- for Female 
 update SALES_STORE 
-SET gender = 'F'
+set gender = 'F'
 where gender = 'Female';
 
 
