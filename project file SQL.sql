@@ -298,7 +298,7 @@ order by returned_percent desc;
 		end as cust_age 
         from sales_store
         )
-   SELECT 
+   select 
     cust_age,
     FORMAT(sum((price * quantity)), 'C0') AS total_purches
 FROM cte
