@@ -176,7 +176,7 @@ WHERE payment_mode = 'CC';
 
 
 -- Q1. - What are the top 5 most selling produers by quantity
-SELECT 
+select 
     product_name, SUM(quantity) AS Total_quantity_sold
 FROM sales_store
 where
