@@ -313,7 +313,7 @@ ORDER BY total_purches DESC;
 
 -- Q 9. - What is the monthly sales trend?
 
- SELECT 
+ select 
     YEAR(purchase_date) AS Years,
     MONTH(purchase_date) AS months,
     SUM(price * quantity) AS total_sales,
