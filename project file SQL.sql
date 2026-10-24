@@ -178,7 +178,7 @@ WHERE payment_mode = 'CC';
 -- Q1. - What are the top 5 most selling produers by quantity
 select 
     product_name, SUM(quantity) AS Total_quantity_sold
-FROM sales_store
+from sales_store
 where
     status = 'delivered'
 group by  product_name
