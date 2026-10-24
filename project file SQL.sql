@@ -318,7 +318,7 @@ ORDER BY total_purches DESC;
     MONTH(purchase_date) AS months,
     SUM(price * quantity) AS total_sales,
     SUM(quantity) AS total_quantity
-FROM sales_store
+from sales_store
 GROUP BY YEAR(purchase_date) , MONTH(purchase_date)
 ORDER BY years , months;  
 
