@@ -331,7 +331,7 @@ ORDER BY years , months;
 SELECT 
     gender,
     product_category,
-    COUNT(product_category) AS Total_Purches
+    count(product_category) AS Total_Purches
 from sales_store
 group by gender , product_category
 ORDER BY gender;
