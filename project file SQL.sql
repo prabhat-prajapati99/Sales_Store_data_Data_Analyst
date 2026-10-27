@@ -125,7 +125,7 @@ where
 -- Update it
 
 update sales_store 
-SET customer_id = 'CUST1401'
+set customer_id = 'CUST1401'
 where transaction_id = 'TXN985663'; 
 
 
