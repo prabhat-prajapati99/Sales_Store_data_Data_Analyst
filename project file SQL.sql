@@ -104,7 +104,7 @@ where
 -- replacing same name if customer in data set cust_id is avilable
 select 
     *
-FROM sales_store
+from sales_store
 where
     customer_name = 'Ehsaan Ram';-- cust_id is == CUST9494
 -- filling cust_id
