@@ -320,7 +320,7 @@ ORDER BY total_purches DESC;
     SUM(quantity) AS total_quantity
 from sales_store
 GROUP BY YEAR(purchase_date) , MONTH(purchase_date)
-ORDER BY years , months;  
+order BY years , months;  
 
 -- Business Problem: Sales fluctuations go unnoticed.
 -- Business Impact: Plan inventory and marketing according to seasonal trends.
