@@ -131,7 +131,7 @@ where transaction_id = 'TXN985663';
 
 -- now we are filling product info null
 -- here we have cust_id and base on cust_id we filling cust_info null  - cust_id is --CUST1003
-SELECT 
+select 
     *
 FROM sales_store
 where customer_id = 'CUST1003';
