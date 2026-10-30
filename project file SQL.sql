@@ -235,7 +235,7 @@ select
 FROM sales_store
 group BY customer_name
 order by SUM(price * quantity) DESC
-LIMIT 5; 
+limit 5; 
 
 
 -- Business Problem: Identify VIP customers
