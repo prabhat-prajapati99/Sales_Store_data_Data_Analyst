@@ -198,7 +198,7 @@ where
     status = 'cancelled'
 group BY product_name
 order BY total_cancelled_order DESC
-LIMIT 5;
+limit 5;
 
 -- Business Problem: Frequent cancellations affect revenue and customer trust.
 -- Butiness Impact: Identify poor-performing products to improve quality or remove from catalog
