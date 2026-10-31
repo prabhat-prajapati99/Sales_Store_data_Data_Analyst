@@ -197,7 +197,7 @@ from sales_store
 where
     status = 'cancelled'
 group BY product_name
-ORDER BY total_cancelled_order DESC
+order BY total_cancelled_order DESC
 LIMIT 5;
 
 -- Business Problem: Frequent cancellations affect revenue and customer trust.
