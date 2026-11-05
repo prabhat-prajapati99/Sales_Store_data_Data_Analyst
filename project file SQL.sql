@@ -162,7 +162,7 @@ where gender = 'Female';
 
 -- cleaning payment_mode column unique(UPI,Cash,EMI,Debit Card,CC,Credit Card)
 -- changing cc to Credit Card
-UPDATE sales_store 
+update sales_store 
 SET payment_mode = 'Credit Card'
 WHERE payment_mode = 'CC';
 
