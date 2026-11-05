@@ -79,7 +79,7 @@ select
 from sales_store
 where
     transaction_id IS null
-        OR customer_id is NULL
+        OR customer_id is null
         OR customer_name IS NULL
         OR customer_age IS null
         OR gender IS NULL
