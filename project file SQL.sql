@@ -118,7 +118,7 @@ where
 -- filling null in Damini Raju customer feeld 
 select 
     *
-FROM SALSE_store
+from SALSE_store
 where
     customer_name = 'Damini Raju';-- cust_id is == CUST1401
 
