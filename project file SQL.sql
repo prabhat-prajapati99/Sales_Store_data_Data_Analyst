@@ -109,7 +109,7 @@ where
     customer_name = 'Ehsaan Ram';-- cust_id is == CUST9494
 -- filling cust_id
 UPDATE sales_store 
-SET 
+set 
     customer_id = 'CUST9494'
 where
     transaction_id = 'TXN977900'; 
