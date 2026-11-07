@@ -328,7 +328,7 @@ order BY years , months;
 ----------------------------------------------------------------------------------------------
 
 -- Q10. Are certain genders buying more specific product categories?
-SELECT 
+select 
     gender,
     product_category,
     count(product_category) AS Total_Purches
