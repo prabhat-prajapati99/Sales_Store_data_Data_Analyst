@@ -247,7 +247,7 @@ SELECT
     product_category,
     FORMAT(SUM(price * quantity), 'C0') AS Revenue
 FROM sales_store
-GROUP BY product_category
+group BY product_category
 ORDER BY SUM(price * quantity) DESC;
 
 -- Business Problem: Identify top-performing product categorie
