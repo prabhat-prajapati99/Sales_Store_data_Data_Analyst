@@ -85,7 +85,7 @@ where
         OR gender IS NULL
         OR product_id IS NULL
         OR product_name IS NULL
-        OR product_category IS NULL
+        OR product_category IS null
         OR quantity IS NULL
         OR price IS NULL
         OR payment_mode is null
