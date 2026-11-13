@@ -133,7 +133,7 @@ where transaction_id = 'TXN985663';
 -- here we have cust_id and base on cust_id we filling cust_info null  - cust_id is --CUST1003
 select 
     *
-FROM sales_store
+from sales_store
 where customer_id = 'CUST1003';
 
 
