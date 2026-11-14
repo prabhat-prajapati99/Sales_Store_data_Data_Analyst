@@ -80,7 +80,7 @@ from sales_store
 where
     transaction_id IS null
         OR customer_id is null
-        OR customer_name IS NULL
+        OR customer_name IS null
         OR customer_age IS null
         OR gender IS NULL
         OR product_id IS NULL
