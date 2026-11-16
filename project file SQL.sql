@@ -138,7 +138,7 @@ where customer_id = 'CUST1003';
 
 
 update sales_store 
-SET 
+set 
     customer_name = 'Mahika Saini',
     customer_age = 35,
     gender = 'Male'
