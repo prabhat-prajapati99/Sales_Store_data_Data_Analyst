@@ -50,7 +50,7 @@ select
     *
 from cte
 where
-    TRANSACTION_ID IN ('TXN240646' , 'TXN342128', 'TXN855235', 'TXN981773'); 
+    TRANSACTION_ID in ('TXN240646' , 'TXN342128', 'TXN855235', 'TXN981773'); 
 
 -- Deleting duplicate values 
 with cte as ( 
