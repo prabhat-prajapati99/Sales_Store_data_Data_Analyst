@@ -246,7 +246,7 @@ limit 5;
 SELECT 
     product_category,
     FORMAT(SUM(price * quantity), 'C0') AS Revenue
-FROM sales_store
+from sales_store
 group BY product_category
 ORDER BY SUM(price * quantity) DESC;
 
