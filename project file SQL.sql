@@ -218,9 +218,9 @@ from sales_store)
     
 select 
     time_of_day, COUNT(*) AS total_orders
-FROM cte
+from cte
 group BY time_of_day
-order by  TOTAL_orders DESC;
+order by  TOTAL_orders desc;
 
 -- Business Problem: Find peak sales times.
 
