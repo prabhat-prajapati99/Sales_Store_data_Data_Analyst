@@ -248,7 +248,7 @@ SELECT
     FORMAT(SUM(price * quantity), 'C0') AS Revenue
 from sales_store
 group BY product_category
-ORDER BY SUM(price * quantity) DESC;
+order BY SUM(price * quantity) DESC;
 
 -- Business Problem: Identify top-performing product categorie
 -- Business Impact: Refine product strategy, supply chain, and promotions. allowing the business to invest more in high-margin or high-demand categories.
