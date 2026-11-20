@@ -9,7 +9,7 @@ create table sales_store (
     transaction_id VARCHAR(15),
     customer_id VARCHAR(15),
     customer_name VARCHAR(30),
-    customer_age INT,
+    customer_age int,
     gender VARCHAR(15),
     product_id VARCHAR(15),
     product_name VARCHAR(15),
