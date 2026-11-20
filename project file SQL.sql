@@ -209,7 +209,7 @@ limit 5;
 with cte as ( 
 select *,
 	case 
-		when HOUR(time_of_purchase) between 0 and 5 then 'NIGHT'
+		when hour(time_of_purchase) between 0 and 5 then 'NIGHT'
         when HOUR(time_of_purchase) between 6 and 11 then 'MORNING'
         when hour(time_of_purchase) between 12 and 17 then 'AFTERNOON'
         when HOUR(time_of_purchase) between 18 and 23 then 'EVENING'
