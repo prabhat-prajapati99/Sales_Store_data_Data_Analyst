@@ -91,7 +91,7 @@ where
         OR payment_mode is null
         OR purchase_date IS NULL
         OR time_of_purchase IS null
-        OR status IS NULL;
+        OR status IS null;
 
 
 -- here is an outlayer 
