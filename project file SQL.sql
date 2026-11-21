@@ -302,7 +302,7 @@ order by returned_percent desc;
     cust_age,
     FORMAT(sum((price * quantity)), 'C0') AS total_purches
 from cte
-GROUP BY cust_age
+group BY cust_age
 ORDER BY total_purches DESC;
  
  
