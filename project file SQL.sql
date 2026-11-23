@@ -70,7 +70,7 @@ alter table sales_store
 RENAME colUMN qunity to quantity;
 
 -- 2nd is prce
-alter table sales_store
+ALter table sales_store
 RENAME column prce to price;
 ------------------------------------------------------------
 -- Step 3 -: to chake null values 
