@@ -89,7 +89,7 @@ where
         OR quantity IS null
         OR price IS NULL
         OR payment_mode is null
-        OR purchase_date IS NULL
+        OR purchase_date IS null
         OR time_of_purchase IS null
         OR status IS null;
 
