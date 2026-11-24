@@ -14,7 +14,7 @@ create table sales_store (
     product_id VARCHAR(15),
     product_name VARCHAR(15),
     product_category VARCHAR(15),
-    qunity INT,
+    qunity int,
     prce FLOAT,
     payment_mode VARCHAR(15),
     purchase_date DATE,
