@@ -268,7 +268,7 @@ ORDER BY CANCELLED_PERCENT DESC;
 -- return
 SELECT 
     product_category,
-    format(COUNT(CASE WHEN status = 'returned' THEN 1 end) / COUNT(*) * 100,2) AS returned_percent
+    format(count(CASE WHEN status = 'returned' THEN 1 end) / COUNT(*) * 100,2) AS returned_percent
 FROM sales_store
 group by product_category
 order by returned_percent desc;
