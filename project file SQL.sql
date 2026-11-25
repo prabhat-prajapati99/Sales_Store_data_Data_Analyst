@@ -303,7 +303,7 @@ order by returned_percent desc;
     FORMAT(sum((price * quantity)), 'C0') AS total_purches
 from cte
 group BY cust_age
-ORDER BY total_purches DESC;
+order by total_purches DESC;
  
  
  -- Business Problem: Understand customer demographics.
