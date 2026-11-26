@@ -87,7 +87,7 @@ where
         OR product_name IS NULL
         OR product_category IS null
         OR quantity IS null
-        OR price IS NULL
+        OR price IS null
         OR payment_mode is null
         OR purchase_date IS null
         OR time_of_purchase IS null
