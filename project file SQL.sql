@@ -217,7 +217,7 @@ select *,
 from sales_store)
     
 select 
-    time_of_day, COUNT(*) AS total_orders
+    time_of_day, count(*) AS total_orders
 from cte
 group BY time_of_day
 order by  TOTAL_orders desc;
