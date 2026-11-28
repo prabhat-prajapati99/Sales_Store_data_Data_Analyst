@@ -82,7 +82,7 @@ where
         OR customer_id is null
         OR customer_name IS null
         OR customer_age IS null
-        OR gender IS NULL
+        OR gender IS null
         OR product_id is null
         OR product_name IS NULL
         OR product_category IS null
